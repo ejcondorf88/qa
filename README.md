@@ -7,19 +7,18 @@
 | Campo | Detalle |
 |---|---|
 | **Nombre del Proyecto** | PetTech: Matcher de Adopción y Cuidados |
-| **Sistema Bajo Prueba** | PetTech — MVP Web (Django + React) |
+| **Sistema Bajo Prueba** | PetTech — MVP Web |
 | **Versión** | v1.0 / MVP |
 | **Fecha** | 27/03/2026 |
-| **Equipo** | QA: Elian Condor  \|  DEV: Alejandra Marin |
 | **Ciclo** | Micro-Sprint 1 y Micro-Sprint 2 — HU-01 a HU-15 |
 
 ---
 
 ## 2. Contexto
 
-> PetTech es una plataforma web que facilita la adopción responsable de mascotas. El sistema permite que administradores de refugios registren animales disponibles y que familias adoptantes exploren opciones y envíen solicitudes. El motor de reglas de compatibilidad evalúa factores como el tamaño del hogar, la experiencia previa y la presencia de niños, con el objetivo de reducir el 20.7% de adopciones fallidas actuales.
->
-> Este plan cubre dos Micro-Sprints: el Micro-Sprint 1 abarca las Épicas 1, 2 y el inicio de la Épica 3 (registro completo de mascotas y familias adoptantes, más la visualización del listado). El Micro-Sprint 2 cubre las HU restantes correspondientes a las Épicas 3 a 6.
+PetTech es una plataforma web que facilita la adopción responsable de mascotas. El sistema permite que administradores de refugios registren animales disponibles y que familias adoptantes exploren opciones y envíen solicitudes. El motor de reglas de compatibilidad evalúa factores como el tamaño del hogar, la experiencia previa y la presencia de niños, con el objetivo de reducir el 20.7% de adopciones fallidas actuales.
+
+Este plan cubre dos Micro-Sprints: el Micro-Sprint 1 abarca las Épicas 1, 2 y el inicio de la Épica 3 (registro completo de mascotas y familias adoptantes, más la visualización del listado). El Micro-Sprint 2 cubre las HU restantes correspondientes a las Épicas 3 a 6 (HU-07 a HU-15).
 
 ---
 
@@ -40,15 +39,15 @@
 
 | ID | Historia de Usuario | Prioridad / SP |
 |---|---|---|
-| HU-07 | [Por definir] | [Por definir] |
-| HU-08 | [Por definir] | [Por definir] |
-| HU-09 | [Por definir] | [Por definir] |
-| HU-10 | [Por definir] | [Por definir] |
-| HU-11 | [Por definir] | [Por definir] |
-| HU-12 | [Por definir] | [Por definir] |
-| HU-13 | [Por definir] | [Por definir] |
-| HU-14 | [Por definir] | [Por definir] |
-| HU-15 | [Por definir] | [Por definir] |
+| HU-07 | Ver detalle de mascota | Alta / 5 SP |
+| HU-08 | Solicitar adopción | Alta / 3 SP |
+| HU-09 | Consultar detalle de solicitud de adopción | Media / 3 SP |
+| HU-10 | Registrar decisión sobre solicitud | Alta / 5 SP |
+| HU-11 | Sugerir alternativa de adopción | Media / 3 SP |
+| HU-12 | Confirmar adopción | Alta / 3 SP |
+| HU-13 | Visualizar adopciones realizadas | Media / 5 SP |
+| HU-14 | Generar calendario de vacunas | Alta / 8 SP |
+| HU-15 | Consultar calendario de vacunación | Alta / 3 SP |
 
 ### 3.3 Fuera del alcance (MVP)
 
@@ -135,12 +134,12 @@
 
 | Actividad | QA (Elian Condor) | DEV (Alejandra Marin) |
 |---|---|---|
-| Redacción del TEST_PLAN.md | Lidera | Revisa |
-| Redacción del TEST_CASES.md | Lidera | Apoya |
-| Implementación de Karate | Lidera | — |
-| Desarrollo del MVP | — | Lidera |
-| Registro de tiempos (time-tracking) | Apoya | Lidera |
-| REALITY_CHECK.md | Co-redacta | Co-redacta |
+| Redacción del TEST_PLAN.md | QA | - |
+| Redacción del TEST_CASES.md | QA | - |
+| Implementación de Karate | QA | — |
+| Desarrollo del MVP | — | QA |
+| Registro de tiempos (time-tracking) | - | DEV |
+| REALITY_CHECK.md |QA | DEV |
 
 ---
 
@@ -162,24 +161,24 @@
 
 | Historia de Usuario | Story Points Estimados | Fechas |
 |---|---|---|
-| HU-07 — [Por definir] | [X SP] | [Por definir] |
-| HU-08 — [Por definir] | [X SP] | [Por definir] |
-| HU-09 — [Por definir] | [X SP] | [Por definir] |
-| HU-10 — [Por definir] | [X SP] | [Por definir] |
-| HU-11 — [Por definir] | [X SP] | [Por definir] |
-| HU-12 — [Por definir] | [X SP] | [Por definir] |
-| HU-13 — [Por definir] | [X SP] | [Por definir] |
-| HU-14 — [Por definir] | [X SP] | [Por definir] |
-| HU-15 — [Por definir] | [X SP] | [Por definir] |
-| **Subtotal** | **[X SP]** | **[Por definir]** |
+| HU-07 — Ver detalle de mascota | 5 SP | 26/03 – 27/03 |
+| HU-08 — Solicitar adopción | 3 SP | 26/03 – 27/03 |
+| HU-09 — Consultar detalle de solicitud | 3 SP | 27/03 |
+| HU-10 — Registrar decisión sobre solicitud | 5 SP | 26/03 – 27/03 |
+| HU-11 — Sugerir alternativa de adopción | 3 SP | 27/03 |
+| HU-12 — Confirmar adopción | 3 SP | 26/03 – 27/03 |
+| HU-13 — Visualizar adopciones realizadas | 5 SP | 27/03 |
+| HU-14 — Generar calendario de vacunas | 8 SP | 26/03 – 27/03 |
+| HU-15 — Consultar calendario de vacunación | 3 SP | 27/03 |
+| **Subtotal** | **38 SP** | **26/03 – 27/03/2026** |
 
 ### Total General
 
 | | Story Points |
 |---|---|
 | Micro-Sprint 1 | 22 SP |
-| Micro-Sprint 2 | [X SP] |
-| **Total** | **[X SP]** |
+| Micro-Sprint 2 | 38 SP |
+| **Total** | **60 SP** |
 
 ---
 
@@ -188,14 +187,14 @@
 | Artefacto | Micro-Sprint | Descripción | Responsable |
 |---|---|---|---|
 | TEST_PLAN.md | Sprint 1 | Plan formal de pruebas del micro-sprint | QA |
-| TEST_CASES.md | Sprint 1 | Matriz completa de casos de prueba con datos de entrada | QA |
-| Evidencias de ejecución | Sprint 1 y 2 | Capturas de pantalla o reportes generados por Serenity BDD, Cucumber o K6 | QA |
-| Repositorio Serenity BDD | Sprint 1 y 2 | Repositorio independiente con escenarios funcionales automatizados | QA |
-| Repositorio Karate | Sprint 1 y 2 | Repositorio independiente con pruebas de API REST automatizadas | QA |
-| Repositorio K6 | Sprint 2 | Repositorio independiente con scripts de pruebas de rendimiento | QA |
-| Reporte de bugs / defectos | Sprint 1 y 2 | Listado de defectos encontrados con pasos de reproducción incluidos | QA |
+| TEST_CASES.md | Sprint 1 y 2 | Matriz de casos de prueba: una tabla donde cada fila representa un caso de prueba individual con datos de entrada, precondiciones, pasos, resultado esperado y resultado obtenido | QA |
+| Evidencias de ejecución | Sprint 1 y 2 | Ejecución manual: pantallazos o video corto. Ejecución automatizada: reporte generado por SerenityBDD / Karate / k6 | QA |
+| Repositorio SerenityBDD | Sprint 1 y 2 | Repositorio independiente con escenarios funcionales automatizados | QA |
+| Repositorio Karate | Sprint 1 y 2 | Repositorio independiente con pruebas de API REST automatizadas (**entregable principal para el viernes**) | QA |
+| Repositorio k6 | Sprint 2 | Repositorio independiente con scripts de pruebas de rendimiento | QA |
+| Reporte de bugs / incidencias | Sprint 1 y 2 | Listado de defectos encontrados con pasos de reproducción, severidad y estado | QA |
 | REALITY_CHECK.md | Cierre | Documento retrospectivo del sprint | QA + DEV |
-| GitHub Projects Board | Ambos | Tablero con HU y casos de prueba como sub-tareas | QA + DEV |
+| GitHub Projects Board | Ambos | Tablero con HU y casos de prueba organizados por sub-issues (ver sección 12) | QA + DEV |
 
 ---
 
@@ -207,15 +206,10 @@
 | API no responde o endpoint inestable | Baja | Alto | Usar mocks o colección Postman como respaldo |
 | Tiempo insuficiente en Sprint 1 | Media | Medio | Priorizar casos críticos; mover HU no críticas al Sprint 2 |
 | Validación de datos incorrectos (edad, mayoría de edad) | Media | Alto | Definir datos de prueba y casos negativos explícitos en TEST_CASES |
-| Formato de imagen no validado correctamente (HU-03) | Media | Medio | Probar con archivos .pdf, .docx, .exe en pruebas negativas |
-| Registro duplicado de familia no detectado (HU-05) | Alta | Alto | Ejecutar escenario de duplicidad con mismo número de cédula |
+
 
 ---
 
-## 12. Convención GitHub Projects
 
-Por cada Historia de Usuario se creará una única sub-issue en GitHub Projects que contendrá la tabla completa de casos de prueba asociados, en lugar de crear sub-issues individuales por cada caso de prueba. Esto permite mantener el tablero organizado y trazable sin generar ruido en el backlog.
-
----
 
 *Documento elaborado por: Elian Condor (QA) — Revisado por: Alejandra Marin (DEV) — Fecha: 27/03/2026*
